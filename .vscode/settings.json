@@ -1,0 +1,33 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true,
+    "source.fixAll.sortJSON": true
+  },
+  "terminal.integrated.cwd": "./",
+  "cSpell.words": [
+    "BASEPATH",
+    "Ecom",
+    "ecommerce",
+    "geodist",
+    "hellobacsi",
+    "hhgtech",
+    "nprogress",
+    "Pharmacity",
+    "slugified",
+    "specialties",
+    "Subot"
+  ],
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
