@@ -11,25 +11,28 @@ Your goals are:
 
    - GET https://628e0d29a339dfef87a6ad21.mockapi.io/employees
      list of ALL employee with each employee structure like this:
+
+     ```json
      {
-     "name":"Harley",
-     "email":"Emilia.Hauck@yahoo.com",
-     "position":"Senior Accountability Technician",
-     "avatar":"https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/454.jpg",
-     "id":"1"
+      "id":"1"
+      "name":"Harley",
+      "email":"Emilia.Hauck@yahoo.com",
+      "position":"Senior Accountability Technician",
+      "avatar":"https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/454.jpg"
      }
+     ```
 
    - POST https://628e0d29a339dfef87a6ad21.mockapi.io/employees
      Add new employee by passing the same structure as above
 
 - fetch all employees data
 - render a table with 5 columns, each row has data of each employee
-- At the end, add a button "Add" to show a form to add new employee
+- At the end, add a button `"Add"` to open a popup that has a form to add new employee
 - After new employee is added, refetch data
 
 ======== EXCERCISE 1 ========
 
-3. This is page `/ex2`
+1. This is page `/ex2`
 
 - we have a JSON file name `ex2Data.json` that has this structure:
 
