@@ -4,29 +4,37 @@
       {
         "children": [
           {
+            "id": "1.1.1",
             "name": "grandchild1"
           },
           {
+            "id": "1.1.2",
             "name": "grandchild2"
           }
         ],
+        "id": "1.1",
         "name": "child1"
       },
       {
+        "id": "1.2",
         "name": "child2"
       }
     ],
+    "id": "1",
     "name": "parent1"
   },
   {
     "children": [
       {
+        "id": "2.1",
         "name": "child3"
       },
       {
+        "id": "2.2",
         "name": "child4"
       }
     ],
+    "id": "2",
     "name": "parent2"
   },
   {
@@ -34,21 +42,27 @@
       {
         "children": [
           {
+            "id": "3.1.1",
             "name": "grandchild3"
           },
           {
+            "id": "3.1.2",
             "name": "grandchild4"
           }
         ],
+        "id": "3.1",
         "name": "child5"
       },
       {
+        "id": "3.2",
         "name": "child6"
       }
     ],
+    "id": "3",
     "name": "parent3"
   },
   {
+    "id": "4",
     "name": "parent4"
   }
 ]
